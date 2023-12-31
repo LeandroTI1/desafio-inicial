@@ -2,7 +2,7 @@
 let nomeDoHeroi = prompt("Digite o nome do herói:");
 let experienciaDoHeroi = parseInt(prompt("Digite a quantidade de experiência do herói:"));
 
-// Utiliza estrutura de decisão para determinar o nível do herói
+// Utiliza estrutura de escolhas o nível do herói
 let nivelDoHeroi;
 
 if (experienciaDoHeroi < 1000) {
@@ -23,5 +23,5 @@ if (experienciaDoHeroi < 1000) {
   nivelDoHeroi = "Radiante";
 }
 
-// Exibe a mensagem final
-console.log(`O Herói de nome ${nomeDoHeroi} está no nível de ${nivelDoHeroi}`);
+//Mensagem final
+console.log(`O Herói de nome + nomeDoHeroi está no nível de + nivelDoHeroi`);
